@@ -1,0 +1,36 @@
+{
+    "bdce-4a8a-b708": {
+        "fields": {
+            "0b13-4db2-917e": {
+                "id": "0b13-4db2-917e", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "cd6f-4b76-b9d3": {
+                "id": "cd6f-4b76-b9d3", 
+                "name": "price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "a89b-4ee5-b5a3": {
+                "auto_created": true, 
+                "id": "a89b-4ee5-b5a3", 
+                "name": "field1", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "3f2b-4097-85ef": {
+                "id": "3f2b-4097-85ef", 
+                "name": "image", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "product"
+    }
+}

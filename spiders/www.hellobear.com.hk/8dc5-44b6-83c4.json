@@ -1,0 +1,107 @@
+{
+    "extractors": {},
+    "id": "8dc5-44b6-83c4",
+    "name": "Baileys",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "57c3-47e3-9318",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "bdce-4a8a-b708",
+                    "selector": ".pd-box",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".Product-title"
+                    ],
+                    "container_id": "57c3-47e3-9318",
+                    "data": {
+                        "2ddc-4bb6-8811": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "0b13-4db2-917e",
+                            "required": false
+                        }
+                    },
+                    "id": "3e33-4d22-af22",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .Product-title",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" Product-title \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".pd-box > div:nth-child(1) > .ProductDetail-product > .ProductDetail-product-info > .box-default > div:nth-child(1)"
+                    ],
+                    "container_id": "57c3-47e3-9318",
+                    "data": {
+                        "8c71-4e5f-8387": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "a89b-4ee5-b5a3",
+                            "required": false
+                        }
+                    },
+                    "id": "9182-4647-a73f",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(1) > .ProductDetail-product > .ProductDetail-product-info > .box-default > div:nth-child(1)",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/div[1]"
+                },
+                {
+                    "accept_selectors": [
+                        ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image"
+                    ],
+                    "container_id": "57c3-47e3-9318",
+                    "data": {
+                        "0e78-4332-9335": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "3f2b-4097-85ef",
+                            "required": false
+                        }
+                    },
+                    "id": "1bee-4d7c-b525",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-gallery \")]/ul/li/*[contains(concat(\" \", @class, \" \"), \" sl-lazy-image \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "bdce-4a8a-b708",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/products/ireland-baileys-chocolate-collection-box-138g-square-box",
+    "version": "0.13.3"
+}
